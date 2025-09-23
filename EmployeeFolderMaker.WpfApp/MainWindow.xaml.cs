@@ -22,12 +22,14 @@ public partial class MainWindow : Window
         "کمیسیون",
         "متفرقه",
         "مرخصی و ماموریت",
-        "نقل و انقالات"
+        "نقل و انقالات",
+        "سایر موارد"
     };
 
     // پوشه‌های حالت «سرباز وظیفه»
     private static readonly string[] Folders_Conscripts =
     {
+        "اطلاعات پرسنلی",
         "تسویه حساب",
         "مرخصی",
         "تشویق",
@@ -36,8 +38,10 @@ public partial class MainWindow : Window
         "کسر خدمت",
         "عائله مندی",
         "انتقالات",
+        "متفرقه",
         "مدرک تحصیلی",
-        "آموزش"
+        "آموزش",
+        "سایر موارد"
     };
 
     public MainWindow()
